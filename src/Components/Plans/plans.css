@@ -1,0 +1,203 @@
+.plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+.page-number{
+    display: flex;
+    width: 50%;
+    margin: 2em auto;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.plan-title {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.2em 0 1em;
+}
+.price-light{
+    font-weight: 400;
+    color: #3C4852;
+}
+.light{
+    color: #bebebe;
+}
+page{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    align-items: center;
+    justify-content: center;
+    
+}
+page p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0096FF;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.subscribe-list{
+    width: 100%;
+}
+.subscribe-list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.subscribe-list ul:first-child .left{
+    vertical-align: center;
+}
+.subscribe-list li{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    border-radius: 5px;
+    height: 55px;
+    width: 400px;
+    border: 2px solid #bebebe;
+    padding: 1em;
+}
+.plans .left{
+    display: flex;
+    align-items: center;
+    gap: .4em;
+}
+.plans .right .price-big{
+    font-size: 1rem;
+}
+
+.plans .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.icons{
+    font-size: 2rem;
+    color: green;
+}
+.not{
+    color: #BEBEBE;
+}
+.disable{
+    color: #BEBEBE;
+    
+}
+.subscribe-list li{
+    position: relative;
+    cursor: pointer;
+}
+.subscribe-list li .subtitle{
+    position: absolute;
+    font-size: .6rem;
+    top: 0;
+    left: 7em;
+    background: green;
+    padding: .2em 2em;
+    border-radius: 0px 0px 5px 5px;
+    color: white;
+}
+.not-subtitle{
+    background: #bebebe;
+}
+.expired{
+    position: absolute;
+    font-size: .6rem;
+    top: 0;
+    left: 7em;
+    color: white;
+    padding: .1em 2em;
+    border-radius: 0px 0px 10px 10px;
+    border: 2px solid rgba(255, 0, 0,0.8);
+    background: red;
+    
+
+}
+
+.expired-li{
+    position: relative;
+    opacity: .5;
+}
+ .subscribe-list ul{
+    margin-bottom: 2em;
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    
+}
+.fee-line1{
+    display: flex;
+    justify-content: space-between;
+    padding: .4em 1em;
+}
+.limited-offer{
+    border-radius: 5px;
+    padding: 1em;
+    color: red;
+    border: 2px solid  #DE4313;
+    background: linear-gradient(90deg, rgba(222,67,19,0.6) 0%, rgba(254,193,99,0.5) 100%);
+    margin-bottom: 1em;
+
+}
+.limited-line1,.gst{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.gst{
+    padding: .4em 1em;
+}
+.limited-line2{
+    display: flex;
+    align-items: flex-end;
+}
+.limited-line2 img{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    background-size: cover;
+}
+
+.btn{
+    padding: 1em 1.5em;
+    outline: none;
+    border-radius: 5px;
+    border:  2px solid;
+    width: 180px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn1{
+    border-color: #ff0000;
+    background: none;
+    color: #ff0000;
+}
+.btn2{
+    border-color: #076107;
+    background: #035803;
+    color: #fff;
+}
+.razorpay{
+    width: 80px;
+    margin-top: 1em;
+}

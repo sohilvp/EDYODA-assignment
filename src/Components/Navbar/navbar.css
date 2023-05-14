@@ -1,0 +1,35 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 0 6em;
+    height: 4em;
+}
+.left-section ul{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+.right-section ul{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    
+}
+
+.left-section img{
+    width: 158px;
+    
+}
+
+.right-section li:last-child{
+    background:  #0096FF;
+    border-radius: 25px;
+    padding: .6em 2.5em;
+    color: #ffffff;
+
+}
+.left-section li,.right-section li{
+    cursor: pointer;
+}
